@@ -49,14 +49,21 @@
 
             <tbody>
 
-            <tr><td>Large</td><td>$18</td></tr>
-            <tr><td>Medium</td><td>$14</td></tr>
-            <tr><td>Small</td><td>$10</td></tr>
+            <tr><td><input type="radio" name="pizza-size" value="large-pizza" id="large-pizza">
+    <label for="large-pizza">&nbsp;Large</label></td><td>$18</td></tr>
+            <tr><td><input type="radio" name="pizza-size" value="medium-pizza" id="medium-pizza">
+    <label for="medium-pizza">&nbsp;Medium</label></td><td>$14</td></tr>
+            <tr><td><input type="radio" name="pizza-size" value="small-pizza" id="small-pizza">
+    <label for="small-pizza">&nbsp;Small</label></td><td>$10</td></tr>
             <tr><td></td><td></td></tr>
-            <tr><td>Pepperoni</td><td></td></tr>
-            <tr><td>Sausage</td><td></td></tr>
-            <tr><td>Ham</td><td></td></tr>
-            <tr><td>Bacon</td><td></td></tr>
+            <tr><td><input type="checkbox" name="topping" value="pepperoni" id="pepperoni">
+    <label for="pepperoni">&nbsp;Pepperoni</label></td><td></td></tr>
+            <tr><td><input type="checkbox" name="topping" value="sausage" id="sausage">
+    <label for="sausage">&nbsp;Sausage</label></td><td></td></tr>
+            <tr><td><input type="checkbox" name="topping" value="ham" id="ham">
+    <label for="ham">&nbsp;Ham</label></td><td></td></tr>
+            <tr><td><input type="checkbox" name="topping" value="bacon" id="bacon">
+    <label for="bacon">&nbsp;Bacon</label></td><td></td></tr>
             
 
           </tbody>
@@ -65,7 +72,7 @@
           <p>First two toppings free, additional toppings $0.50. Toppings: pepperoni, sausage, ham, bacon, onions, peppers, olives, extra cheese.</p>
           <p><div class="form-group">
             <label for="">Qty: </label>
-            <input type="text"></input>
+            <input type="text" name="pizza-qty"></input>
           </div><a class="btn btn-default" onclick="pizzabutton()" role="button">Add to checkout »</a></p>
         </div>
         <div class="col-md-4">
@@ -80,13 +87,19 @@
 
             <tbody>
 
-            <tr><td>Large</td><td>$5</td></tr>
-            <tr><td>Medium</td><td>$4</td></tr>
-            <tr><td>Small</td><td>$3</td></tr>
-            <tr><td>Garlic Butter Sauce</td><td>$0.50</td></tr>
+            <tr><td><input type="radio" name="sticks-size" value="large-sticks" id="large-sticks">
+    <label for="large-sticks">&nbsp;Large</label></td><td>$5</td></tr>
+            <tr><td><input type="radio" name="sticks-size" value="medium-sticks" id="medium-sticks">
+    <label for="medium-sticks">&nbsp;Medium</label></td><td>$4</td></tr>
+            <tr><td><input type="radio" name="sticks-size" value="small-sticks" id="small-sticks">
+    <label for="small-sticks">&nbsp;Small</label></td><td>$3</td></tr>
+            <tr><td><input type="checkbox" name="sauce" value="sauce" id="sauce">
+    <label for="sauce">&nbsp;Garlic Butter Sauce</label></td><td>$0.50</td></tr>
             <tr><td></td><td></td></tr>
-            <tr><td>Garlic Butter</td><td></td></tr>
-            <tr><td>Garlic Cheese</td><td></td></tr>
+            <tr><td><input type="radio" name="sticks-type" value="butter-sticks" id="butter-sticks">
+    <label for="butter-sticks">&nbsp;Garlic Butter</label></td><td></td></tr>
+            <tr><td><input type="radio" name="sticks-type" value="cheese-sticks" id="cheese-sticks">
+    <label for="cheese-sticks">&nbsp;Garlic Cheese</label></td><td></td></tr>
             
 
 
@@ -96,7 +109,7 @@
           <p>Flavors: Garlic butter, garlic cheese. Extra sauce $0.50</p>
           <p><div class="form-group">
             <label for="">Qty: </label>
-            <input type="text"></input>
+            <input type="text" name="sticks-qty"></input>
           </div><a class="btn btn-default" onclick="sticksbutton()" role="button">Add to checkout »</a></p>
        </div>
         <div class="col-md-4">
@@ -111,20 +124,25 @@
 
             <tbody>
 
-            <tr><td><input type="radio" name="fruit" value="apple" id="apple">
-    <label for="apple">&nbsp;Large</label></td><td>$3</td></tr>
-            <tr><td><input type="radio" name="fruit" value="apple" id="apple">
-    <label for="apple">&nbsp;Medium</label></td><td>$2</td></tr>
-            <tr><td><input type="radio" name="fruit" value="apple" id="apple">
-    <label for="apple">&nbsp;Small</label></td><td>$1</td></tr>
+            <tr><td><input type="radio" name="drink-size" value="large-drink" id="large-drink">
+    <label for="large-drink">&nbsp;Large</label></td><td>$3</td></tr>
+            <tr><td><input type="radio" name="drink-size" value="medium-drink" id="medium-drink">
+    <label for="medium-drink">&nbsp;Medium</label></td><td>$2</td></tr>
+            <tr><td><input type="radio" name="drink-size" value="small-drink" id="small-drink">
+    <label for="small-drink">&nbsp;Small</label></td><td>$1</td></tr>
 
 
             <tr><td></td><td></td></tr>
-            <tr><td>Cola</td><td></td></tr>
-            <tr><td>Lemon-Lime</td><td></td></tr>
-            <tr><td>Water</td><td></td></tr>
-            <tr><td>Milk</td><td></td></tr>
-            <tr><td>Beer</td><td></td></tr>
+            <tr><td><input type="radio" name="drink-type" value="cola" id="cola">
+    <label for="cola">&nbsp;Cola</label></td><td></td></tr>
+            <tr><td><input type="radio" name="drink-type" value="lemon-lime" id="lemon-lime">
+    <label for="lemon-lime">&nbsp;Lemon-Lime</label></td><td></td></tr>
+            <tr><td><input type="radio" name="drink-type" value="water" id="water">
+    <label for="water">&nbsp;Water</label></td><td></td></tr>
+            <tr><td><input type="radio" name="drink-type" value="milk" id="milk">
+    <label for="milk">&nbsp;Milk</label></td><td></td></tr>
+            <tr><td><input type="radio" name="drink-type" value="beer" id="beer">
+    <label for="beer">&nbsp;Beer</label></td><td></td></tr>
 
           </tbody>
           </table>
@@ -132,7 +150,7 @@
           <p>Available: Cola, lemon-lime soda, water, milk, beer</p>
           <p><div class="form-group">
             <label for="">Qty: </label>
-            <input type="text"></input>
+            <input type="text" name="drink-qty"></input>
           </div><a class="btn btn-default" onclick="drinkbutton()" role="button">Add to checkout »</a></p>
 
        
@@ -143,15 +161,30 @@
       <footer>
         <p>By: Jacob Potter, Colin MacCreery, Peter Martinez, Stuart Zeiger</p>
       </footer>
-      <script type="text/javascript">
-      function pizzabutton (argument) {
-        // body...
-        prompt()
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="bootstrap.js"></script>
+    <script type="text/javascript">
+      function pizzabutton() {
+        var toppings = "";
+        $("input:checked[name=topping]").each(function() {
+          toppings += $(this).val() + " ";
+        });
+        alert($("input[name=pizza-qty]").val() + " " + $("input:checked[name=pizza-size]").val() + " with " + toppings);
+      }
+
+      function sticksbutton() {
+        if (typeof $("input:checked[name=sauce]").val() === "undefined") {
+          alert($("input:checked[name=sticks-size]").val() + " " + $("input[name=sticks-qty]").val() + " " + $("input:checked[name=sticks-type]").val() + " without sauce");
+        } else {
+          alert($("input[name=sticks-qty]").val() + " " + $("input:checked[name=sticks-size]").val() + " " + $("input:checked[name=sticks-type]").val() + " with sauce");
+        }
+      }
+
+      function drinkbutton() {
+        alert($("input[name=drink-qty]").val() + " " + $('input:checked[name=drink-size]').val() + " " + $('input:checked[name=drink-type]').val());
       }
 
       </script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="bootstrap.js"></script>
-
  </body>
 </html>
