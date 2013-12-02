@@ -1,0 +1,169 @@
+
+Site: Pizza Hut
+
+Person ID :4
+Did they complete the order: Y
+Time it takes: 6:00
+Errors made and not corrected:0
+Errors made and corrected:1
+How did they rate the interface:
+
+Ease of use: 5
+
+5 very easy, understandable and no problems
+4 easy. minor complexity, no major problems
+3 average, some points unclear at first, minor problems
+2 hard, confusing, some problems
+1 very hard, very confusing, major problems
+
+Were there delays in the interface?: 2
+
+3 no
+2 some, but not too annoying
+1 yes, is was too slow.
+
+Found problems related to your phone: N
+
+Would it be easier to just call?: N
+
+Would you use the interface again?: Y
+
+Phone and OS version used: Android 4.1
+
+Comments: Really easy
+
+User:
+
+Used phone to order pizza before via an interface: 2
+
+3 Often
+2 Sometimes
+1 Never
+
+Used phone to complete other online actions: 3
+
+3 Often
+2 Sometimes
+1 Never
+
+Uses phone for:
+
+email Y
+TXT Y
+Facebook Y
+twitter N
+web browsing Y
+
+
+Site: Hungry Howies
+
+Person ID :4
+Did they complete the order: Y
+Time it takes: 9:00
+Errors made and not corrected:0
+Errors made and corrected:0
+How did they rate the interface:
+
+Ease of use: 3
+
+5 very easy, understandable and no problems
+4 easy. minor complexity, no major problems
+3 average, some points unclear at first, minor problems
+2 hard, confusing, some problems
+1 very hard, very confusing, major problems
+
+Were there delays in the interface?: 2
+
+3 no
+2 some, but not too annoying
+1 yes, is was too slow.
+
+Found problems related to your phone: Y
+
+Would it be easier to just call?: Y
+
+Would you use the interface again?: N
+
+Phone and OS version used: Android 4.1
+
+Comments: Started off in mobile site.
+
+User:
+
+Used phone to order pizza before via an interface: 2
+
+3 Often
+2 Sometimes
+1 Never
+
+Used phone to complete other online actions:3
+
+3 Often
+2 Sometimes
+1 Never
+
+Uses phone for:
+
+email Y/N
+TXT Y/N
+Facebook Y/N
+twitter Y/N
+web browsing Y/N
+
+
+Site: Domino's
+
+Person ID :4
+Did they complete the order: Y
+Time it takes: 6:00
+Errors made and not corrected:0
+Errors made and corrected:0
+How did they rate the interface:
+
+Ease of use:5
+
+5 very easy, understandable and no problems
+4 easy. minor complexity, no major problems
+3 average, some points unclear at first, minor problems
+2 hard, confusing, some problems
+1 very hard, very confusing, major problems
+
+Were there delays in the interface?:3
+
+3 no
+2 some, but not too annoying
+1 yes, is was too slow.
+
+Found problems related to your phone: N
+
+Would it be easier to just call?: N
+
+Would you use the interface again?: Y
+
+Phone and OS version used: Android 4.1
+
+Comments: N/A
+
+User:
+
+Used phone to order pizza before via an interface: 2
+
+3 Often
+2 Sometimes
+1 Never
+
+Used phone to complete other online actions: 3
+
+3 Often
+2 Sometimes
+1 Never
+
+
+Uses phone for:
+
+email Y
+TXT Y
+Facebook Y
+twitter N
+web browsing Y
+
